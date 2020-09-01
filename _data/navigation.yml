@@ -1,12 +1,16 @@
 # main links
 main:
+  - title: "About me"
+    url: https://github.com/fumchin/
+  - title: "Projects"
+    url: 
+  - title: "Guitar"
+    url: /guitar/
+  - title: "Posts"
+    url: /blog-post/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Sample Collections"
+    url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/

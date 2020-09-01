@@ -96,7 +96,7 @@ author:
   name             : "陳舫慶"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hi there! OWO"
-  location         : "Somewhere on Earth"
+  location         : "Taipei, Taiwan"
   email            :
   links:
     - label: "Email"
@@ -271,7 +271,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true

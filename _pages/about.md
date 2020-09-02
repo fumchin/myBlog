@@ -5,6 +5,11 @@ sitemap: true
 permalink: /about/
 author_profile: true
 classes: wide
+
+excerpt: Me
+header:
+  overlay_image: /assets/images/about_guitar.jpg
+  overlay_filter: 0.5
 ---
 
 # 簡介  
@@ -23,17 +28,18 @@ classes: wide
 + 就讀國立**交通大學電機系**
 + 參加交通大學諮商中心擔任志工
   + 曾經獲得最佳志工獎><
+  + 擔任26th志工團美宣組長
 + 即將成為**陽明交通大學**的一員
 
 # 技能
 ## 程式語言
-+ **C/C++**：第一個程式語言，有用來處理過point cloud
++ **C/C++**：第一個程式語言，有用來處理過point cloud（點雲）
 + **Java**：大三修的課，期末寫了個音訊處理的專題拿了班上佳作
 + **Python**: 大三做了兩學期的machine learning，不算精通但在debug及修改code上沒有問題
-+ **MySQL**：大二下物件導向專題有稍微寫過
++ **MySQL**：大二下物件導向專題有稍微寫過，用來處理資料庫
 
 ## 一些技能
 + **mahcine learning**：看了許多自駕車trajectory prediction相關的paper，也有實際執行＆更改github上面的專案。實驗室還買過nvidia出產的jetbot來玩
-+ **Git**：初學門檻高，但會用後真是離不開了
++ **Git**：當初學得很痛苦，但會用後真是離不開了
 + **Linux**：比windows自由多了，甚至在筆電裝了ubuntu18.04雙系統哈哈哈
-+ **彈吉他**：喜歡fingerstyle，目前正在努力攻克押尾的fight，目前用的琴是Crater D6/N
++ **彈吉他**：喜歡fingerstyle，目前正在努力學習押尾的fight，用的琴是Crater D6/N

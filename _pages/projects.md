@@ -16,21 +16,26 @@ excerpt: 這些日子的心血 QQ
 <!-- <div align="center">
 <img src=".././assets/images/project_images/music_player.jpg/" width="300px" alt="圖片說明" ><img src=".././assets/images/project_images/elevator.jpg/" width="300px" alt="圖片說明" >  
 </div> -->
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+
 <figure class="half">
-<img src=".././assets/images/project_images/music_player.jpg/" width="300px" alt="圖片說明" >
-<img src=".././assets/images/project_images/elevator.jpg/" width="300px" alt="圖片說明" >  
+  <a href="http://google.com">
+    <img src="https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/project_images/music_player.jpg" width="50px" alt="music player" title="music player" >
+  </a>
+  <a href="http://google.com">
+    <img src="https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/project_images/elevator.jpg" width="50px" alt="music player" title="music player" >
+  </a>
 </figure>
 
-<!-- gallery:
-  - url: /assets/images/project_images/music_player.jpg
-    image_path: /assets/images/project_images/music_player.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/project_images/elevator.jpg
-    image_path: /assets/images/project_images/elevator.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
-  - url: /assets/images/project_images/marble.jpg
-    image_path: /assets/images/project_images/marble.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption" -->

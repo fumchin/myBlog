@@ -34,7 +34,7 @@ feature_row3:
     alt: "elevator"
     title: "大二下進階物件導向專題"
     excerpt: '簡單來說就是設計一個電梯，會在不同樓層載人及放人，在此同時要解一些程式題目（CPE那類的）。<br>然後全班比賽，比誰題目解得比較快、誰的電梯演算法最好，最後好像是有到前十這樣吧。'
-    url: "#test-link"
+    url: "https://github.com/fumchin/AOOP-Final-Project"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -43,12 +43,4 @@ feature_row3:
 {% include feature_row id="feature_row2" type="right" %}
 {% include feature_row id="feature_row3" type="left" %}
 
-<!-- <figure class="half">
-  <a href="http://google.com">
-    <img src="https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/project_images/music_player.jpg" width="50px" alt="music player" title="music player" >
-  </a>
-  <a href="http://google.com">
-    <img src="https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/project_images/elevator.jpg" width="50px" alt="music player" title="music player" >
-  </a>
-</figure> -->
 

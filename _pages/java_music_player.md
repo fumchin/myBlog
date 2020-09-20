@@ -51,5 +51,17 @@ permalink: /projects/java_music_player/
     ```
 
 4. ### 簡易音訊編輯
+    * 聲音放大縮小、加速減速<br>
+    ->直接對ArrayList<Double>[]做修改
+    * 選取段落播放、剪下、刪除
+    * CODE
+    ```
+    for(int i=0; i<signal[0].size(); i++){
+            signal[0].set(i, signal[0].get(i)* 0);
+    }
+    ```
+
 5. ### Equalizer 等化器
+   * 利用fft將時域訊號轉成頻域離散訊號，對特定的將圖形等化器的增減益(dB)在ArrayList上操作，再由ifft將頻域訊號轉回時域訊號撥放。
+   * ![equalizer](./../assets/images/project_images/java_music_player/equalizer.jpg)
 6. ### 和弦辨識

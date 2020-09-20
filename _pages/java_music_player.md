@@ -63,5 +63,9 @@ permalink: /projects/java_music_player/
 
 5. ### Equalizer 等化器
    * 利用fft將時域訊號轉成頻域離散訊號，對特定的將圖形等化器的增減益(dB)在ArrayList上操作，再由ifft將頻域訊號轉回時域訊號撥放。
-   * ![equalizer](./../assets/images/project_images/java_music_player/equalizer.jpg)
+   * EQ的樣子>< <br>
+    ![equalizer](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/project_images/java_music_player/equalizer.jpg)
 6. ### 和弦辨識
+   * 利用fft將時域訊號轉成頻域訊號，先找出根音（C2~B2之間強度最大的），再將所有音階音的訊號強度排列出來，看是否能對應出和弦（Major, minor, dim）。<br>-> 只適用於簡單不複雜的音樂。
+   * 成果（拿let her go 前奏作為測試對象）
+    ![equalizer](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/project_images/java_music_player/chord_result.jpg)

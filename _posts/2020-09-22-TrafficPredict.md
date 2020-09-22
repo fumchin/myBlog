@@ -47,7 +47,7 @@ classes: wide
 
 ## Method
 ### Problem Definition
-尷尬 有點懶得打
+![problem_definition](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/post_images/papers/TrafficPredict/problem_definition.png)
 
 ### How?（照順序來><）
 > 先讓我們來稿清楚一下倒底用了什麼樣的LSTM

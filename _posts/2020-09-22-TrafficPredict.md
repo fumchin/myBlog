@@ -1,6 +1,6 @@
 ---
 layout: single
-title: TrafficPredict - Trajectory Prediction for Heterogeneous Traffic-Agents [論文筆記]
+title: 論文筆記：TrafficPredict - Trajectory Prediction for Heterogeneous Traffic-Agents
 excerpt: Yuexin Ma1;2, Xinge Zhu3, Sibo Zhang1, Ruigang Yang1, Wenping Wang2, Dinesh Manocha
 categories:
     - Paper
@@ -8,15 +8,16 @@ author_profile: true
 classes: wide
 ---
 
-## Reference
+## 前言
 論文連結：[TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents](https://arxiv.org/pdf/1811.02146.pdf)<br>
-（在讀這篇之前最好先讀[Social Attention: Modeling Attention in Human Crowd](https://arxiv.org/pdf/1710.04689.pdf)，TrafficPredict裡面有很大一部分是從Social Attention來的。）
+會議：AAAI 2019<br>
+在讀這篇之前最好先讀[Social Attention: Modeling Attention in Human Crowd](https://arxiv.org/pdf/1710.04689.pdf)，TrafficPredict的概念有很大一部分是從Social Attention來的，在attention的運算方面也寫的的比較詳細。
 
 ## Introduction
 這篇聚焦在在Heterogeneous（包含不同的agents, including vehicles, pedestrians, bikes ...）上。<br>
 > Main Results：
 > 1. a novel LSTM-based algorithm (new approach for trajectory prediction in heteogeneous traffic) -> **4D GRAPH**
-> 2. collect a  new dataset
+> 2. collect a new dataset "Apollo"
 > 3. smaller prediction error
 
 ## System Overview
@@ -69,8 +70,8 @@ classes: wide
 >learn the movemet from the same category of instance
 
 * 把相同類別的instance在第一階段（instance layer）算出來的cell state（c）取出平均，以此作為該類別的移動法則（internal movement law of the trajectory） -> （F）
-* 以（F）通過super node temporal LSTM計算super node時域間的特性 -> （hii）
-* 以（F）、（hii）通過super node LSTM計算super node的特性 -> （hu）
+* 以（F）通過super node temporal LSTM計算super node時域間的特性 -> （huu）
+* 以（F）、（huu）通過super node LSTM計算super node的特性 -> （hu）
 * 最後以（h1）和（hu）找出最後的解答 -> （h2）
 * （h2）代回instance layer作為強化
 * 看圖清楚多ㄌ

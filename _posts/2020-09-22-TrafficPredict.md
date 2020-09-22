@@ -81,4 +81,4 @@ classes: wide
 >bivariate Gaussian distribution 就高斯分佈這樣
 
 #### 4. Loss Function
-![loss_function]
+![loss_function](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/post_images/papers/TrafficPredict/loss_function.png)

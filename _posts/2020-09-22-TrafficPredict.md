@@ -32,10 +32,13 @@ A：4D就是上面那個圖裡面的4個東東：
 * 在Category Layers中的6角形東東（high-level categorization，同一纇instance的移動特性）（3rd D）。
 * frame（n） 跟 frame（n+1）之間的temperal edge虛線，時域的關聯性（4th D）。
 
-看起來很厲害，但其實就是4種不一樣的時間、空間features而已～～～
+看起來很厲害，但其實就是4種不一樣的時間、空間features而已～～～  
+這只是基本的部份而已，接下來還有整個的Architecture要討論。
 
 ## Related Works
 主要就來講一下Social Attention和Attention相關的東西。
-1. Social Attention
-    * 先來看個Social Attention的架構圖><，是不是跟我們的4D GRAPH超級像阿
-    ![SocialAttentionSysytemOverview]()
+1. Social Attention（SA）
+    * 先來看個Social Attention（RNN-based, Homogeneous）的架構圖><，是不是跟我們的4D GRAPH超級像阿（應該有像ㄅ），只是SA沒有Category Layer的分類而已。
+    ![SocialAttentionSysytemOverview](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/post_images/papers/TrafficPredict/SA_system_overview.png)
+
+2. 

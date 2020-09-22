@@ -25,7 +25,6 @@ feature_row2:
     alt: "黑膠唱片"
     title: "Java Music Player"
     excerpt: 'Java 期末專題，可以讀wav檔並修改，包含速度、音量，有存檔的功能。<br>還有等化器(equalizer)、和弦辨識等功能。'
-    # url: "https://fumchin.github.io/myblog/projects/java_music_player/"
     url: "/projects/java_music_player/"
     btn_label: "Read More"
     btn_class: "btn--primary"

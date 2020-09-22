@@ -51,21 +51,34 @@ classes: wide
 
 ### How?（照順序來><）
 > 先讓我們來稿清楚一下倒底用了什麼樣的LSTM
-> 1. instance LSTM（每個instance會有一個LSTM來紀錄他們的移動特性，相同種類的會share parameters）
+> 1. instance LSTM（每個instance會有一個LSTM來紀錄他們的移動特性，相同種類的會share parameters，論文中提到在他們的實驗裡有3種）
 > 2. edge LSTM（找出在同一時間，instance之間的interaction）
 > 3. super node temporal LSTM
 > 4. super node LSTM
 
-1. Instance Layer
-    * 利用edge LSTM抓出instance i和j的互動關係 -> （hij）
-    * 再來利用Attention打分數，以（hij）的結果，找出現在誰對i的重要性最大 ->（w） 
-    * 將（w）和上一階段的最後結果（h2）代入istance LSTM找出第一階段的結果 -> （h1, c）
+#### 1. Instance Layer
+>capture the movement pattern of instances in traffic
 
-2. Category Layer
-    * 把相同類別的instance在第一階段（instance layer）算出來的cell state（c）取出平均，以此作為該類別的移動法則（internal movement law of the trajectory） -> （F）
-     * 以（F）通過super node temporal LSTM計算super node時域間的特性 -> （hii）
-     * 以（F）、（hii）通過super node LSTM計算super node的特性 -> （hu）
-     * 最後以（h1）和（hu）找出最後的解答 -> （h2）
-     * （h2）代回instance layer作為強化
-     * 看圖清楚多ㄌ
-    ![category_layer](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/post_images/papers/TrafficPredict/instance_layer.png)
+* 利用edge LSTM抓出instance i和j的互動關係 -> （hij）
+* 再來利用Attention打分數，以（hij）的結果，找出現在誰對i的重要性最大 ->（w） 
+* 將（w）和上一階段的結果（h2）代入istance LSTM找出第一階段的結果 -> （h1, c）
+* 圖  
+![instance_layer](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/post_images/papers/TrafficPredict/instance_layer.png)
+
+#### 2. Category Layer
+>learn the movemet from the same category of instance
+
+* 把相同類別的instance在第一階段（instance layer）算出來的cell state（c）取出平均，以此作為該類別的移動法則（internal movement law of the trajectory） -> （F）
+* 以（F）通過super node temporal LSTM計算super node時域間的特性 -> （hii）
+* 以（F）、（hii）通過super node LSTM計算super node的特性 -> （hu）
+* 最後以（h1）和（hu）找出最後的解答 -> （h2）
+* （h2）代回instance layer作為強化
+* 看圖清楚多ㄌ
+![category_layer](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/post_images/papers/TrafficPredict/category_layer.png)
+
+
+### 3. Position Estimation
+>bivariate Gaussian distribution 就高斯分佈這樣
+
+#### 4. Loss Function
+![loss_function]

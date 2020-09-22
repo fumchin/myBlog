@@ -1,6 +1,6 @@
 ---
 layout: single
-title: TrafficPredict - Trajectory Prediction for Heterogeneous Traffic-Agents
+title: TrafficPredict - Trajectory Prediction for Heterogeneous Traffic-Agents [論文筆記]
 excerpt: Yuexin Ma1;2, Xinge Zhu3, Sibo Zhang1, Ruigang Yang1, Wenping Wang2, Dinesh Manocha
 categories:
     - Paper
@@ -8,8 +8,8 @@ author_profile: true
 classes: wide
 ---
 
-## 論文連結
-[TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents](https://arxiv.org/pdf/1811.02146.pdf)<br>
+## Reference
+論文連結：[TrafficPredict: Trajectory Prediction for Heterogeneous Traffic-Agents](https://arxiv.org/pdf/1811.02146.pdf)<br>
 （在讀這篇之前最好先讀[Social Attention: Modeling Attention in Human Crowd](https://arxiv.org/pdf/1710.04689.pdf)，TrafficPredict裡面有很大一部分是從Social Attention來的。）
 
 ## Introduction

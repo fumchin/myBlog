@@ -68,4 +68,4 @@ classes: wide
      * 最後以（h1）和（hu）找出最後的解答 -> （h2）
      * （h2）代回instance layer作為強化
      * 看圖清楚多ㄌ
-    ![category_layer]()
+    ![category_layer](https://raw.githubusercontent.com/fumchin/myblog/master/assets/images/post_images/papers/TrafficPredict/instance_layer.png)

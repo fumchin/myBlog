@@ -2,7 +2,7 @@
 layout: single
 title: 第一篇blog
 categories:
-    - Mood
+    - 心情
 author_profile: true
 classes: wide
 ---

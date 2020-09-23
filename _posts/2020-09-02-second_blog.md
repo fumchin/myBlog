@@ -2,7 +2,7 @@
 layout: single
 title: 寫部落格好麻煩哈哈哈
 categories:
-    - Mood
+    - 心情
 author_profile: true
 classes: wide
 ---

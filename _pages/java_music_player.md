@@ -1,6 +1,7 @@
 ---
 title: "Java Music Player"
 layout: splash
+sitemap: true
 permalink: /projects/java_music_player/
 ---
 <br>

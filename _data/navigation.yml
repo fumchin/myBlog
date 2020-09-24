@@ -2,12 +2,12 @@
 main:
   - title: "Projects"
     url: /projects/
-  - title: "Guitar"
-    url:  /guitar/
   - title: "Posts"
     url: /posts/
   - title: "About me"
     url: /about/
+  - title: "Guitar"
+    url:  /guitar/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "Sample Collections"

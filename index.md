@@ -8,4 +8,3 @@ header:
   overlay_image: /assets/images/Taipei.jpg
   overlay_filter: 0.3
 ---
-

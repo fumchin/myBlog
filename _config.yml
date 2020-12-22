@@ -101,7 +101,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:fumchinchen.me06@nctu.edu.tw"
-    - label: "Website"
+    - label: "CV"
       icon: "fas fa-fw fa-link"
       url: "https://fumchin.github.io/myblog"
     - label: "Twitter"

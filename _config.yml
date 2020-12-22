@@ -103,7 +103,7 @@ author:
       url: "mailto:fumchinchen.me06@nctu.edu.tw"
     - label: "CV"
       icon: "fas fa-fw fa-link"
-      url: "https://fumchin.github.io/myblog"
+      url: "https://github.com/fumchin/myblog/blob/master/assets/images/CV/fumchin_CV.jpg?raw=true"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
